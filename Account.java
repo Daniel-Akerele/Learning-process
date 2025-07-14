@@ -6,7 +6,7 @@ public class Account {
    private String name;// instance variable 
 
    // method to set the name in the onject
-   public void setName(String []) {
+   public void setName(String name) {
       this.name = name; // store the name
    }
    

@@ -1,0 +1,16 @@
+// AddSpaceAfterEachDigit
+import java.util.Scanner;
+
+public class AddSpaceAfterEachDigit {
+  public static void main(string[] args) {
+      Scanner inpur = new Scanner(System.in); 
+  
+      System.out.print("Enter a Number: ")
+      String number = input.nextLine();
+
+      for (int i = 0; i < number.length(); i++) {
+            char ch = number.charAt(i);
+            System.out.print(ch + " ");
+        }
+    }
+}
