@@ -4,12 +4,12 @@ import java.util.Scanner;
 public class NumberChecker {
    public static boolean ispalindrome(int input) {
    if (input < 0) return false;
-
-if (input > 9999999) {
-    System.out.print("Number is too large! Enter up to 7 digits only");
 }
 
-   int original = input;
+   int original = input;if (reversed > (Integer.MAX_VALUE - input) / 10) {
+    System.out.print("Number is too large to process!");
+    return false;
+
 
    int reversed = 0;
   
