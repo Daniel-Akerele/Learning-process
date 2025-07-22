@@ -1,4 +1,4 @@
-// IntegerCheckerEvenandodd.java
+// IntegerCheckerEvenandOdd.java
 import java.util.Scanner;
 
 public class IntegerCheckerEvenandOdd {
